@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  color: #dedede;
+  font-family: sans-serif;
+}
+
+a.link {
+  color: #dedede;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+#main1 {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#main2 {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#blog-container-full {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Assuming bgimgblog.jpg is in an img folder at the root */
+  background-image: url('/img/bgimgblog.jpg');
+  background-size: cover;
+  text-align: left;
+}
+
+#nav-container {
+  width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#blog-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#general table {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nav-blog-container {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  background-color: #dedede;
+  margin: 20px 0;
+}
+
+mark {
+  background-color: #dedede;
+  color: black;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
